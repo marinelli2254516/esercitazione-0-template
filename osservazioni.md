@@ -23,7 +23,8 @@ Output richiesto e comportamento del programma prima della modifica: L'output ri
 
 Esito dopo la modifica e spiegazione della correzione: L'esito della modifica e' stato positivo, dopo aver inserito il comando di stampa e aver ricompilato il file, l'output richiesto viene stampato a schermo.
 
-## Step 1 — Git
+## Step 1 — Git 
+Controllato su github e l'ultimo commit e' identico a quello del terminale
 
 Quali file ho incluso nel commit e perché:
 
