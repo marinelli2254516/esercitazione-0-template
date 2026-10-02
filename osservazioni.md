@@ -1,4 +1,4 @@
-# Osservazioni — Esercitazione 0
+q# Osservazioni — Esercitazione 0
 
 Gruppo: 
 
@@ -26,21 +26,21 @@ Esito dopo la modifica e spiegazione della correzione: L'esito della modifica e'
 ## Step 1 — Git 
 Controllato su github e l'ultimo commit e' identico a quello del terminale
 
-Quali file ho incluso nel commit e perché:
+Quali file ho incluso nel commit e perché: Abbiamo incluso hello.c e osservazioni.md, perche' sono i due file di testo. Non abbiamo incluso hello essendo un eseguibile. 
 
-Come ho verificato che la versione provata sia presente su GitHub:
+Come ho verificato che la versione provata sia presente su GitHub: Abbiamo aperto il commit su github e abbiamo verificato che il codice fosse identico.
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: Prima di git pull la frase aggiunta su osservazioni.md da github, non c'era su pc dopo git pull e' comparsa. Non serve un clone perche' il computer e' gia' collegata a github e gitpull scarica gli aggiornamenti
 
 ## Step 2 — Eco: prima prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato: Argomenti passati : ciao, 12, 3.5. Il comando utilizzato e' stato ./eco ciao 12 3.5. Il risultato ottenuto a schermo e' stato ciao 12 3.500000
 
-Che cosa posso concludere:
+Che cosa posso concludere: Si puo concludere che le funzioni atoi e atof convertono le stringhe in numeri.
 
 ## Step 2 — Eco: seconda prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato:  Argomenti passati : ciao, 12, 3.5,  Il comando utilizzato e' stato ./eco2 ciao 12 3.5. Il risultato ottenuto a schermo e' stato ciao 12 3.500000
 
 Che cosa ho capito su testo, conversioni e stampa:
 
