@@ -1,27 +1,27 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo: 
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (nome, cognome e username GitHub di entrambi): Edoardo Leoni Edo-ardo00, Matteo Marinelli marinelli2254516
 
-URL del repository condiviso:
+URL del repository condiviso: https://github.com/marinelli2254516/esercitazione-0-template.git
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2: Matteo step 1, Edoardo step 2
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione: gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
 
-Comando di esecuzione e risultato osservato:
+Comando di esecuzione e risultato osservato: ./hello || Nessun output
 
-Che cosa ho capito su sorgente ed eseguibile:
+Che cosa ho capito su sorgente ed eseguibile: La sorgente e' un file scritto dall'utente, mentre l'eseguibile e' un file binario che il computer fa girare.  
 
-Output richiesto e comportamento del programma prima della modifica:
+Output richiesto e comportamento del programma prima della modifica: L'output richiesto era "Hello, computational physics!", seguito da un a capo. Prima della modifica il file non stampava nulla a schermo, ma compilava.
 
-Esito dopo la modifica e spiegazione della correzione:
+Esito dopo la modifica e spiegazione della correzione: L'esito della modifica e' stato positivo, dopo aver inserito il comando di stampa e aver ricompilato il file, l'output richiesto viene stampato a schermo.
 
 ## Step 1 — Git
 
