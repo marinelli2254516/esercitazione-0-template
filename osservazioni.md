@@ -46,17 +46,18 @@ Che cosa ho capito su testo, conversioni e stampa: Gli argomenti arrivano sempre
 
 ## Step 2 — Risultato ed errori
 
-Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`: Si prevede che se inseriti argomenti validi il codice 
-Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati:
+Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`: Si prevede che se inseriti argomenti validi il codice produce correttamente il testo e lo salva su eco.txt, mentre sul terminale non appare nessun messaggio. Se invece si inserisce un valore sbagliato (ad esempio 'dodici') il codice segnala il tuo errore sul terminale e lascia il file vuoto.
 
-Come un controllo automatico può riconoscere un errore:
+Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati: Nel caso valido eco.txt contiene 'ciao, 12, 3.500000' e il codice di uscita è 0. Nel caso con errore il file eco.txt è vuoto e il codice stampa terminale l'errore dicendo 'il secondo argomento deve essere un argomento in base 10'.
+
+Come un controllo automatico può riconoscere un errore: Legge il codice di uscita, se è 0 il codice è corretto e il comando è andato a buon fine, se è diverso da 0 l'esecuzione del codice si blocca e termina.
 
 ## Step 2 — Parametri e calcolo fisico
 
-Quando serve ricompilare e quando basta cambiare gli argomenti:
+Quando serve ricompilare e quando basta cambiare gli argomenti: Serve ricompilare quando hai modificato il codice sorgente in c, basta cambiare gli argomenti per modificare i dati in input.
 
 ## Step 2 — Git
 
-Come riconosco nella cronologia i commit dei due step:
+Come riconosco nella cronologia i commit dei due step: Scrivendo il comando git log--oneline si distinguono i messaggi dei commit dalla cronologia, uno per 'Hello.world.c' e uno per 'eco.c'.
 
-Come ho verificato che la versione finale sia presente su GitHub:
+Come ho verificato che la versione finale sia presente su GitHub: Controllando direttamente sul sito di github che gli ultimi commit salvati fossero presenti. 
