@@ -42,12 +42,11 @@ Che cosa posso concludere: Si puo concludere che le funzioni atoi e atof convert
 
 Argomenti passati, comando e risultato:  Argomenti passati : ciao, 12, 3.5,  Il comando utilizzato e' stato ./eco2 ciao 12 3.5. Il risultato ottenuto a schermo e' stato ciao 12 3.500000 
 
-Che cosa ho capito su testo, conversioni e stampa: Gli argomenti arrivano sempre come stringhe. Le funzioni strtol e strdot permettono di controllare che il dato sia un numero valido. Infine printf stampa con %s il testo invariato, con %d un intero e %f un double.
+Che cosa ho capito su testo, conversioni e stampa: Gli argomenti arrivano sempre come stringhe. Le funzioni strtol e strtod permettono di controllare che il dato sia un numero valido. Infine printf stampa con %s il testo invariato, con %d un intero e %f un double.
 
 ## Step 2 — Risultato ed errori
 
-Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`: 
-
+Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`: Si prevede che se inseriti argomenti validi il codice 
 Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati:
 
 Come un controllo automatico può riconoscere un errore:
